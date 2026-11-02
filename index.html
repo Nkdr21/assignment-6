@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - jQuery Assignment 6</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+  <section id="profile" class="card">
+    <h1>Welcome to My Portfolio</h1>
+    <h2 id="greeting" class="highlight">Hi, I am Your Name</h2>
+    <p>
+      I am a student learning web development. I like building small projects
+      and I want to get better at coding every week.
+    </p>
+    <button id="changeGreeting">Change greeting</button>
+    <button id="themeLight">Light theme</button>
+    <button id="themeDark">Dark theme</button>
+  </section>
+
+  <section id="about" class="card">
+    <h2>About Me</h2>
+    <p>Write a short bio about yourself here.</p>
+
+    <div id="aboutDetails">
+      <p class="status">Currently learning jQuery!</p>
+      <ul>
+        <li>Fun fact 1: I ...</li>
+        <li>Fun fact 2: My hobby is ...</li>
+        <li>Fun fact 3: My goal is ...</li>
+      </ul>
+    </div>
+
+    <button id="showBtn">Show</button>
+    <button id="hideBtn">Hide</button>
+    <button id="toggleBtn">Toggle</button>
+  </section>
+
+  <section id="gallery" class="card">
+    <h2>My Gallery</h2>
+    <img class="gallery-img" src="https://picsum.photos/seed/hobby/300/200" alt="My hobby">
+    <img class="gallery-img" src="https://picsum.photos/seed/travel/300/200" alt="Travel photo">
+    <img class="gallery-img" src="https://picsum.photos/seed/project/300/200" alt="My project">
+    <br>
+    <button id="fadeInBtn">Fade In</button>
+    <button id="fadeOutBtn">Fade Out</button>
+    <button id="fadeToggleBtn">Fade Toggle</button>
+  </section>
+
+  <section id="favorites" class="card">
+    <h2>My Favorites</h2>
+
+    <h3 class="acc-heading">My Favorite Music</h3>
+    <div class="acc-panel">
+      <p>Write your favourite music here.</p>
+    </div>
+
+    <h3 class="acc-heading">My Favorite Movie</h3>
+    <div class="acc-panel">
+      <p>Write your favourite movie here.</p>
+    </div>
+
+    <h3 class="acc-heading">My Favorite Subject</h3>
+    <div class="acc-panel">
+      <p>Write your favourite subject here.</p>
+    </div>
+
+    <button id="openAllBtn">Open all</button>
+    <button id="closeAllBtn">Close all</button>
+  </section>
+
+  <section id="skills" class="card">
+    <h2>My Technical Skills</h2>
+
+    <ul id="skillList">
+      <li><span class="skill-name">HTML</span><div class="bar-bg"><div class="bar" data-level="90"></div></div></li>
+      <li><span class="skill-name">CSS</span><div class="bar-bg"><div class="bar" data-level="75"></div></div></li>
+      <li><span class="skill-name">JavaScript</span><div class="bar-bg"><div class="bar" data-level="60"></div></div></li>
+      <li><span class="skill-name">jQuery</span><div class="bar-bg"><div class="bar" data-level="40"></div></div></li>
+    </ul>
+
+    <input type="text" id="skillInput" placeholder="Type a skill...">
+    <button id="addSkillBtn">Add Skill</button>
+    <button id="prependSkillBtn">Prepend Skill</button>
+    <button id="removeSkillBtn">Remove Skill</button>
+    <p id="skillMessage"></p>
+
+    <button id="animateBtn">Animate My Skills</button>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact Me</h2>
+    <p>
+      Find me on
+      <a id="socialLink" href="https://github.com/your-username" target="_blank">My GitHub</a>
+    </p>
+    <button id="changeLinkBtn">Change link</button>
+
+    <h3>Leave your info</h3>
+    <form id="infoForm">
+      <label>Name: <input type="text" id="nameInput"></label><br><br>
+      <label>Email: <input type="email" id="emailInput"></label>
+    </form>
+
+    <p>You typed name: <span id="previewName"></span></p>
+    <p>You typed email: <span id="previewEmail"></span></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
