@@ -61,5 +61,9 @@ In this part I made skill bars that grow and shrink.
 Every skill has a bar. At the start all bars have zero width. When I click "Animate My Skills", the bars grow with `.animate()` to their own level (90%, 75%, 60% and 40%). When I click the button again, they shrink back to zero. A new skill that I add gets a bar at 50%.
 <img width="1274" height="666" alt="telegram-cloud-photo-size-2-5422424150422265938-y" src="https://github.com/user-attachments/assets/f8ac342e-38e4-4da8-a32a-a06848e40856" />
 
+## Summary
 
+In this assignment, I learned how to use jQuery to make my website more interactive. I worked with selectors, events, effects, and animations. The most difficult part for me was creating skill bar animations and using different jQuery methods correctly. At first, I was confused about some methods, but after testing my code, I understood how they work. I also learned that jQuery can make JavaScript code shorter and easier to write.
+
+In the future, I would like to improve the design of my portfolio and make the animations smoother. Overall, this assignment helped me improve my frontend development skills.
 
